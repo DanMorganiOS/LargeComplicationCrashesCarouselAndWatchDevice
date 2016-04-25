@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D9725A1CCE907300A8B6B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D972591CCE907300A8B6B4 /* main.m */; };
+		63D9725D1CCE907300A8B6B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9725C1CCE907300A8B6B4 /* AppDelegate.m */; };
+		63D972601CCE907300A8B6B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9725F1CCE907300A8B6B4 /* ViewController.m */; };
+		63D972631CCE907300A8B6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D972611CCE907300A8B6B4 /* Main.storyboard */; };
+		63D972651CCE907300A8B6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D972641CCE907300A8B6B4 /* Assets.xcassets */; };
+		63D972681CCE907300A8B6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D972661CCE907300A8B6B4 /* LaunchScreen.storyboard */; };
+		63D972731CCE907400A8B6B4 /* ComplicationCrashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D972721CCE907400A8B6B4 /* ComplicationCrashTests.m */; };
+		63D9727E1CCE907400A8B6B4 /* ComplicationCrashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9727D1CCE907400A8B6B4 /* ComplicationCrashUITests.m */; };
+		63D972831CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63D972821CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app */; };
+		63D972891CCE907400A8B6B4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D972871CCE907400A8B6B4 /* Interface.storyboard */; };
+		63D9728B1CCE907400A8B6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D9728A1CCE907400A8B6B4 /* Assets.xcassets */; };
+		63D972921CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63D972911CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63D9729A1CCE907400A8B6B4 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D972991CCE907400A8B6B4 /* InterfaceController.m */; };
+		63D9729D1CCE907400A8B6B4 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9729C1CCE907400A8B6B4 /* ExtensionDelegate.m */; };
+		63D972A01CCE907400A8B6B4 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9729F1CCE907400A8B6B4 /* NotificationController.m */; };
+		63D972A31CCE907400A8B6B4 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D972A21CCE907400A8B6B4 /* GlanceController.m */; };
+		63D972A61CCE907400A8B6B4 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D972A51CCE907400A8B6B4 /* ComplicationController.m */; };
+		63D972A81CCE907400A8B6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D972A71CCE907400A8B6B4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D9726F1CCE907400A8B6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D9724D1CCE907300A8B6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D972541CCE907300A8B6B4;
+			remoteInfo = ComplicationCrash;
+		};
+		63D9727A1CCE907400A8B6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D9724D1CCE907300A8B6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D972541CCE907300A8B6B4;
+			remoteInfo = ComplicationCrash;
+		};
+		63D972841CCE907400A8B6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D9724D1CCE907300A8B6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D972811CCE907400A8B6B4;
+			remoteInfo = "ComplicationCrash WatchKit App";
+		};
+		63D972931CCE907400A8B6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D9724D1CCE907300A8B6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D972901CCE907400A8B6B4;
+			remoteInfo = "ComplicationCrash WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63D972AF1CCE907400A8B6B4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				63D972921CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D972B31CCE907400A8B6B4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				63D972831CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63D972551CCE907300A8B6B4 /* ComplicationCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplicationCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D972591CCE907300A8B6B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D9725B1CCE907300A8B6B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D9725C1CCE907300A8B6B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D9725E1CCE907300A8B6B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63D9725F1CCE907300A8B6B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63D972621CCE907300A8B6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D972641CCE907300A8B6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D972671CCE907300A8B6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D972691CCE907300A8B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D9726E1CCE907400A8B6B4 /* ComplicationCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicationCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D972721CCE907400A8B6B4 /* ComplicationCrashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationCrashTests.m; sourceTree = "<group>"; };
+		63D972741CCE907400A8B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D972791CCE907400A8B6B4 /* ComplicationCrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicationCrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D9727D1CCE907400A8B6B4 /* ComplicationCrashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationCrashUITests.m; sourceTree = "<group>"; };
+		63D9727F1CCE907400A8B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D972821CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ComplicationCrash WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D972881CCE907400A8B6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		63D9728A1CCE907400A8B6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D9728C1CCE907400A8B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D972911CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ComplicationCrash WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D972971CCE907400A8B6B4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		63D972981CCE907400A8B6B4 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		63D972991CCE907400A8B6B4 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		63D9729B1CCE907400A8B6B4 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		63D9729C1CCE907400A8B6B4 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		63D9729E1CCE907400A8B6B4 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		63D9729F1CCE907400A8B6B4 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		63D972A11CCE907400A8B6B4 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		63D972A21CCE907400A8B6B4 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		63D972A41CCE907400A8B6B4 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		63D972A51CCE907400A8B6B4 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		63D972A71CCE907400A8B6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D972A91CCE907400A8B6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D972521CCE907300A8B6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9726B1CCE907400A8B6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D972761CCE907400A8B6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9728E1CCE907400A8B6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D9724C1CCE907300A8B6B4 = {
+			isa = PBXGroup;
+			children = (
+				63D972571CCE907300A8B6B4 /* ComplicationCrash */,
+				63D972711CCE907400A8B6B4 /* ComplicationCrashTests */,
+				63D9727C1CCE907400A8B6B4 /* ComplicationCrashUITests */,
+				63D972861CCE907400A8B6B4 /* ComplicationCrash WatchKit App */,
+				63D972951CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension */,
+				63D972561CCE907300A8B6B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D972561CCE907300A8B6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D972551CCE907300A8B6B4 /* ComplicationCrash.app */,
+				63D9726E1CCE907400A8B6B4 /* ComplicationCrashTests.xctest */,
+				63D972791CCE907400A8B6B4 /* ComplicationCrashUITests.xctest */,
+				63D972821CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app */,
+				63D972911CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D972571CCE907300A8B6B4 /* ComplicationCrash */ = {
+			isa = PBXGroup;
+			children = (
+				63D9725B1CCE907300A8B6B4 /* AppDelegate.h */,
+				63D9725C1CCE907300A8B6B4 /* AppDelegate.m */,
+				63D9725E1CCE907300A8B6B4 /* ViewController.h */,
+				63D9725F1CCE907300A8B6B4 /* ViewController.m */,
+				63D972611CCE907300A8B6B4 /* Main.storyboard */,
+				63D972641CCE907300A8B6B4 /* Assets.xcassets */,
+				63D972661CCE907300A8B6B4 /* LaunchScreen.storyboard */,
+				63D972691CCE907300A8B6B4 /* Info.plist */,
+				63D972581CCE907300A8B6B4 /* Supporting Files */,
+			);
+			path = ComplicationCrash;
+			sourceTree = "<group>";
+		};
+		63D972581CCE907300A8B6B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D972591CCE907300A8B6B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D972711CCE907400A8B6B4 /* ComplicationCrashTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D972721CCE907400A8B6B4 /* ComplicationCrashTests.m */,
+				63D972741CCE907400A8B6B4 /* Info.plist */,
+			);
+			path = ComplicationCrashTests;
+			sourceTree = "<group>";
+		};
+		63D9727C1CCE907400A8B6B4 /* ComplicationCrashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63D9727D1CCE907400A8B6B4 /* ComplicationCrashUITests.m */,
+				63D9727F1CCE907400A8B6B4 /* Info.plist */,
+			);
+			path = ComplicationCrashUITests;
+			sourceTree = "<group>";
+		};
+		63D972861CCE907400A8B6B4 /* ComplicationCrash WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				63D972871CCE907400A8B6B4 /* Interface.storyboard */,
+				63D9728A1CCE907400A8B6B4 /* Assets.xcassets */,
+				63D9728C1CCE907400A8B6B4 /* Info.plist */,
+			);
+			path = "ComplicationCrash WatchKit App";
+			sourceTree = "<group>";
+		};
+		63D972951CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				63D972981CCE907400A8B6B4 /* InterfaceController.h */,
+				63D972991CCE907400A8B6B4 /* InterfaceController.m */,
+				63D9729B1CCE907400A8B6B4 /* ExtensionDelegate.h */,
+				63D9729C1CCE907400A8B6B4 /* ExtensionDelegate.m */,
+				63D9729E1CCE907400A8B6B4 /* NotificationController.h */,
+				63D9729F1CCE907400A8B6B4 /* NotificationController.m */,
+				63D972A11CCE907400A8B6B4 /* GlanceController.h */,
+				63D972A21CCE907400A8B6B4 /* GlanceController.m */,
+				63D972A41CCE907400A8B6B4 /* ComplicationController.h */,
+				63D972A51CCE907400A8B6B4 /* ComplicationController.m */,
+				63D972A71CCE907400A8B6B4 /* Assets.xcassets */,
+				63D972A91CCE907400A8B6B4 /* Info.plist */,
+				63D972961CCE907400A8B6B4 /* Supporting Files */,
+			);
+			path = "ComplicationCrash WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		63D972961CCE907400A8B6B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D972971CCE907400A8B6B4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D972541CCE907300A8B6B4 /* ComplicationCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D972B41CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash" */;
+			buildPhases = (
+				63D972511CCE907300A8B6B4 /* Sources */,
+				63D972521CCE907300A8B6B4 /* Frameworks */,
+				63D972531CCE907300A8B6B4 /* Resources */,
+				63D972B31CCE907400A8B6B4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D972851CCE907400A8B6B4 /* PBXTargetDependency */,
+			);
+			name = ComplicationCrash;
+			productName = ComplicationCrash;
+			productReference = 63D972551CCE907300A8B6B4 /* ComplicationCrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D9726D1CCE907400A8B6B4 /* ComplicationCrashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D972B71CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrashTests" */;
+			buildPhases = (
+				63D9726A1CCE907400A8B6B4 /* Sources */,
+				63D9726B1CCE907400A8B6B4 /* Frameworks */,
+				63D9726C1CCE907400A8B6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D972701CCE907400A8B6B4 /* PBXTargetDependency */,
+			);
+			name = ComplicationCrashTests;
+			productName = ComplicationCrashTests;
+			productReference = 63D9726E1CCE907400A8B6B4 /* ComplicationCrashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63D972781CCE907400A8B6B4 /* ComplicationCrashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D972BA1CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrashUITests" */;
+			buildPhases = (
+				63D972751CCE907400A8B6B4 /* Sources */,
+				63D972761CCE907400A8B6B4 /* Frameworks */,
+				63D972771CCE907400A8B6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D9727B1CCE907400A8B6B4 /* PBXTargetDependency */,
+			);
+			name = ComplicationCrashUITests;
+			productName = ComplicationCrashUITests;
+			productReference = 63D972791CCE907400A8B6B4 /* ComplicationCrashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		63D972811CCE907400A8B6B4 /* ComplicationCrash WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D972B01CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash WatchKit App" */;
+			buildPhases = (
+				63D972801CCE907400A8B6B4 /* Resources */,
+				63D972AF1CCE907400A8B6B4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D972941CCE907400A8B6B4 /* PBXTargetDependency */,
+			);
+			name = "ComplicationCrash WatchKit App";
+			productName = "ComplicationCrash WatchKit App";
+			productReference = 63D972821CCE907400A8B6B4 /* ComplicationCrash WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		63D972901CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D972AC1CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash WatchKit Extension" */;
+			buildPhases = (
+				63D9728D1CCE907400A8B6B4 /* Sources */,
+				63D9728E1CCE907400A8B6B4 /* Frameworks */,
+				63D9728F1CCE907400A8B6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ComplicationCrash WatchKit Extension";
+			productName = "ComplicationCrash WatchKit Extension";
+			productReference = 63D972911CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D9724D1CCE907300A8B6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Morgan";
+				TargetAttributes = {
+					63D972541CCE907300A8B6B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					63D9726D1CCE907400A8B6B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 63D972541CCE907300A8B6B4;
+					};
+					63D972781CCE907400A8B6B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 63D972541CCE907300A8B6B4;
+					};
+					63D972811CCE907400A8B6B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					63D972901CCE907400A8B6B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 63D972501CCE907300A8B6B4 /* Build configuration list for PBXProject "ComplicationCrash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D9724C1CCE907300A8B6B4;
+			productRefGroup = 63D972561CCE907300A8B6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D972541CCE907300A8B6B4 /* ComplicationCrash */,
+				63D9726D1CCE907400A8B6B4 /* ComplicationCrashTests */,
+				63D972781CCE907400A8B6B4 /* ComplicationCrashUITests */,
+				63D972811CCE907400A8B6B4 /* ComplicationCrash WatchKit App */,
+				63D972901CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D972531CCE907300A8B6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D972681CCE907300A8B6B4 /* LaunchScreen.storyboard in Resources */,
+				63D972651CCE907300A8B6B4 /* Assets.xcassets in Resources */,
+				63D972631CCE907300A8B6B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9726C1CCE907400A8B6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D972771CCE907400A8B6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D972801CCE907400A8B6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D9728B1CCE907400A8B6B4 /* Assets.xcassets in Resources */,
+				63D972891CCE907400A8B6B4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9728F1CCE907400A8B6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D972A81CCE907400A8B6B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D972511CCE907300A8B6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D972601CCE907300A8B6B4 /* ViewController.m in Sources */,
+				63D9725D1CCE907300A8B6B4 /* AppDelegate.m in Sources */,
+				63D9725A1CCE907300A8B6B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9726A1CCE907400A8B6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D972731CCE907400A8B6B4 /* ComplicationCrashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D972751CCE907400A8B6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D9727E1CCE907400A8B6B4 /* ComplicationCrashUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D9728D1CCE907400A8B6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D9729D1CCE907400A8B6B4 /* ExtensionDelegate.m in Sources */,
+				63D9729A1CCE907400A8B6B4 /* InterfaceController.m in Sources */,
+				63D972A01CCE907400A8B6B4 /* NotificationController.m in Sources */,
+				63D972A31CCE907400A8B6B4 /* GlanceController.m in Sources */,
+				63D972A61CCE907400A8B6B4 /* ComplicationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D972701CCE907400A8B6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D972541CCE907300A8B6B4 /* ComplicationCrash */;
+			targetProxy = 63D9726F1CCE907400A8B6B4 /* PBXContainerItemProxy */;
+		};
+		63D9727B1CCE907400A8B6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D972541CCE907300A8B6B4 /* ComplicationCrash */;
+			targetProxy = 63D9727A1CCE907400A8B6B4 /* PBXContainerItemProxy */;
+		};
+		63D972851CCE907400A8B6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D972811CCE907400A8B6B4 /* ComplicationCrash WatchKit App */;
+			targetProxy = 63D972841CCE907400A8B6B4 /* PBXContainerItemProxy */;
+		};
+		63D972941CCE907400A8B6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D972901CCE907400A8B6B4 /* ComplicationCrash WatchKit Extension */;
+			targetProxy = 63D972931CCE907400A8B6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D972611CCE907300A8B6B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D972621CCE907300A8B6B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D972661CCE907300A8B6B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D972671CCE907300A8B6B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63D972871CCE907400A8B6B4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D972881CCE907400A8B6B4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D972AA1CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D972AB1CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D972AD1CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ComplicationCrash WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		63D972AE1CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ComplicationCrash WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		63D972B11CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = ComplicationCrash_WatchKit_Extension;
+				INFOPLIST_FILE = "ComplicationCrash WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		63D972B21CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = ComplicationCrash_WatchKit_Extension;
+				INFOPLIST_FILE = "ComplicationCrash WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		63D972B51CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ComplicationCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63D972B61CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ComplicationCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63D972B81CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ComplicationCrashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplicationCrash.app/ComplicationCrash";
+			};
+			name = Debug;
+		};
+		63D972B91CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ComplicationCrashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplicationCrash.app/ComplicationCrash";
+			};
+			name = Release;
+		};
+		63D972BB1CCE907400A8B6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ComplicationCrashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ComplicationCrash;
+			};
+			name = Debug;
+		};
+		63D972BC1CCE907400A8B6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ComplicationCrashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmashingBoxes.ComplicationCrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ComplicationCrash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D972501CCE907300A8B6B4 /* Build configuration list for PBXProject "ComplicationCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972AA1CCE907400A8B6B4 /* Debug */,
+				63D972AB1CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D972AC1CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972AD1CCE907400A8B6B4 /* Debug */,
+				63D972AE1CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D972B01CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972B11CCE907400A8B6B4 /* Debug */,
+				63D972B21CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D972B41CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972B51CCE907400A8B6B4 /* Debug */,
+				63D972B61CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D972B71CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972B81CCE907400A8B6B4 /* Debug */,
+				63D972B91CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D972BA1CCE907400A8B6B4 /* Build configuration list for PBXNativeTarget "ComplicationCrashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D972BB1CCE907400A8B6B4 /* Debug */,
+				63D972BC1CCE907400A8B6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D9724D1CCE907300A8B6B4 /* Project object */;
+}
